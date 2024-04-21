@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+  main.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100vh;
+
+    h2.firsttext {
+      font-weight: bold;
+      font-size: 200%;
+    }
+  }
+}
