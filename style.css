@@ -1,13 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-body nav.navbar {
-  padding: 2%;
+body nav.nav-wrapper {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
 }
-body nav.navbar p.nav-logo {
+body nav.nav-wrapper nav.navbar {
+  padding: 2%;
+  position: absolute;
+}
+body nav.nav-wrapper nav.navbar p.nav-logo {
   font-weight: bolder;
   font-size: 120%;
 }
