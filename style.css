@@ -28,4 +28,14 @@ body main.main-text h2.firsttext {
 }
 body main.main-text .secondtext-desktop {
   text-align: center;
+}
+@media (max-width: 547px) {
+  body main.main-text .secondtext-desktop {
+    padding: 0px 40px;
+  }
+}
+@media (max-width: 538px) {
+  body main.main-text .firsttext {
+    padding: 0px 40px;
+  }
 }/*# sourceMappingURL=style.css.map */

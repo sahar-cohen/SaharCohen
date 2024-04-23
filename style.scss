@@ -34,14 +34,17 @@ body {
       text-align: center;
     }
 
-    // @media (min-width: 601px) {
-    //   .secondtext-mobile {
-    //     display: none; /* Hide mobile text on larger screens */
-    //   }
-    //   .secondtext-desktop {
-    //     display: block; /* Show desktop text on larger screens */
-    //   }
-    // }
+    @media (max-width: 547px) {
+      .secondtext-desktop {
+        padding: 0px 40px;
+      }
+    }
+
+    @media (max-width: 538px) {
+      .firsttext {
+        padding: 0px 40px;
+      }
+    }
 
     // @media (max-width: 600px) {
     //   .secondtext-mobile {
