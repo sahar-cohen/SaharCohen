@@ -20,8 +20,12 @@ body main.main-text {
   align-items: center;
   gap: 15px;
   height: 100vh;
+  text-align: center;
 }
 body main.main-text h2.firsttext {
   font-weight: bold;
   font-size: 200%;
+}
+body main.main-text .secondtext-desktop {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

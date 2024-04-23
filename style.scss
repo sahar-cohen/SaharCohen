@@ -23,10 +23,33 @@ body {
     align-items: center;
     gap: 15px;
     height: 100vh;
+    text-align: center;
 
     h2.firsttext {
       font-weight: bold;
       font-size: 200%;
     }
+
+    .secondtext-desktop {
+      text-align: center;
+    }
+
+    // @media (min-width: 601px) {
+    //   .secondtext-mobile {
+    //     display: none; /* Hide mobile text on larger screens */
+    //   }
+    //   .secondtext-desktop {
+    //     display: block; /* Show desktop text on larger screens */
+    //   }
+    // }
+
+    // @media (max-width: 600px) {
+    //   .secondtext-mobile {
+    //     display: block; /* Show mobile text on smaller screens */
+    //   }
+    //   .secondtext-desktop {
+    //     display: none; /* Hide desktop text on smaller screens */
+    //   }
+    // }
   }
 }
